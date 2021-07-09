@@ -32,6 +32,15 @@ html {
     margin-left: auto;
     margin-right: auto;
   }
+  .center-product {
+    background-color: rgb(252, 252, 249);
+    /* border: 0.125rem solid rgb(112, 107, 107);
+    border-radius: 0.5rem; */
+    max-width: 180ch;
+    min-height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
   header {
     background-color: rgb(218, 214, 211);
@@ -185,7 +194,71 @@ width: 2rem;
 height: 1.5rem;
 }
 
+/* Products page CSS */
+.product-page h1 {
+  padding: 1rem;
+  margin-top: 2rem;
+}
+img {
+padding: 0;
+margin: 0;
+}
+.product-image {
+width: 19rem;
+height: 27rem;
 
+}
+.product-image p {
+margin-top: 0.5rem;
+font-size: 1.2rem;
+}
+.product-image img {
+width: 18rem;
+height: 18rem;
+margin: 0.75rem;
+}
+.product-page h1 {
+padding-top: 2rem;
+}
+.add-cart {
+padding: 0.5rem;
+margin-top: 0.5rem;
+border-radius: 0.5rem;
+}
+.product-info {
+width: 19rem;
+height: 15rem;
+font-family: Calibri;
+}
+.product-info p, h3 {
+padding: 0.125rem;
+}
+.product-reviews {
+height: 8rem;
+width: 18rem;
+}
+.product-reviews img {
+height: 5rem;
+width: 8rem;
+}
+.reviews {
+display: grid;
+align-items: center;
+font-size: 2rem;
+}
+.image-gallery {
+width: auto;
+height: auto;
+background-color: lightgoldenrodyellow;
+}
+.image-gallery img {
+width: 10rem;
+height: 10rem;
+margin: 0.5rem 1rem 0.5rem 1rem;
+}
+.write {
+text-decoration: 0.125rem underline orangered;
+}
   /* CSS Grid Section*/
   .two-column-grid-equal-cart {
     display: grid;
