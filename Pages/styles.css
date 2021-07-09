@@ -41,6 +41,15 @@ html {
     margin-left: auto;
     margin-right: auto;
   }
+  .center-login {
+    background-color: rgb(252, 252, 249);
+    /* border: 0.125rem solid rgb(112, 107, 107);
+    border-radius: 0.5rem; */
+    max-width: 100ch;
+    min-height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
   header {
     background-color: rgb(218, 214, 211);
