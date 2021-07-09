@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    .logo {
+        width: 6rem;
+        height: 6rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .logo img {
+        width: 6rem;
+        height: 6rem;
+    }
+    .right img {
+        width: 1.2rem;
+        height: 1.2rem;
+    }
+    h4 {
+    margin: 0;
+    padding: 0;
+  }
+  .faded-white {
+    color: rgb(122, 118, 118);
+    }
+    .check {
+        border: 0.0625rem solid gray;
+        width: 9rem;
+        height: auto;
+        padding: 0.25rem;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        border-top-left-radius: 0.75rem;
+        border-bottom-right-radius: 0.75rem;
+        margin-top: 1rem;
+    }
+    .express-pay img {
+        width: 5rem;
+        height: 3rem;
+        margin-top: 1.5rem;
+        margin-left: 2rem;
+        margin-bottom: 1.5rem;
+    }
+    .express-pay {
+        text-align: center;
+    }
+    input, select {
+    width: 100%;
+    height: 2rem;
+    border-radius: 0.25rem;
+    border: 0.0625rem solid rgb(199, 198, 198);
+    font-size: 1.25rem;
+    color: #f57c21;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: grid;
+    grid-auto-flow: rows;
+  }
+ .shipping button {
+     padding: 0.5rem;
+     background-color: #f57c21;
+     color: white;
+     font-size: 1.25rem;
+     border-radius: 1rem;
+ }
+ .shipping p {
+     margin-top: auto;
+     margin-bottom: auto;
+     font-size: 1.3rem;
+     width: auto;
+     height: auto;
+     background-color: wheat;
+     padding: 0.25rem;
+     border-radius: 0.5rem;
+ }
+</style>
+<body class="center-payment">
+    <div class="logo">
+        <img src="./Assets/img/header/logo.jpg" alt="Logo"></div>
+        <section>
+    <h1 class="text-center">Payment Page</h1>
+    <ul class="six-column-grid-pay">
+        <li></li>
+        <li class="two-column-grid-pay">
+            <div><h4>Cart</h4></div>
+            <div class="right"><img src="https://pics.freeicons.io/uploads/icons/png/15129603211543238866-512.png" alt="Right"></div>
+        </li>
+        <li class="two-column-grid-pay">
+            <div><h4>Information</h4></div>
+            <div class="right"><img src="https://pics.freeicons.io/uploads/icons/png/15129603211543238866-512.png" alt="Right"></div>
+        </li>
+        <li class="two-column-grid-pay">
+            <div><p class="faded-white">Shipping</p></div>
+            <div class="right"><img src="https://pics.freeicons.io/uploads/icons/png/15129603211543238866-512.png" alt="Right"></div>
+        </li>
+        <li class="two-column-grid-pay">
+            <div><p class="faded-white">Payment</p></div>
+            <div class="right"><img src="https://pics.freeicons.io/uploads/icons/png/15129603211543238866-512.png" alt="Right"></div>
+        </li>
+        <li></li>
+    </ul>
+    <h4 class="check">Express checkout</h4>
+    <div class="express-pay">
+       <a href="https://www.paypal.com/uk/signin"> <img src="https://pics.freeicons.io/uploads/icons/png/6500358661581334480-512.png" alt="Paypal"></a>
+       <a href="https://www.apple.com/uk/apple-pay/"><img src="https://pics.freeicons.io/uploads/icons/png/11662275301558424388-512.png" alt="Apple Pay"></a>
+       <a href=""></a>
+    </div>
+    <h4 class="text-center">OR</h4>
+</section>
+<div>
+    <ul class="three-column-grid-pay">
+        <li>Contact Information</li>
+        <li></li>
+        <li>Already have and account? <strong><a href="#">Log in</a></strong></li>
+    </ul>
+    <form action>
+<label for="email"></label>
+<input type="email" id="email" minlength="10" maxlength="40" placeholder="Email" required>
+    </form>
+    <form> 
+<label class="label" for="name">Shipping Address</label>
+<div class="two-column-grid-pay">
+    <input type="name" id="first-name" minlength="10" maxlength="40" placeholder="First Name" required>
+<input type="name" id="last-name" minlength="10" maxlength="40" placeholder="Last Name" required>
+</div>
+<input type="name" id="company" minlength="10" maxlength="40" placeholder="Company (optional)" required>
+<input type="name" id="address" minlength="10" maxlength="40" placeholder="Address" required>
+<input type="name" id="apartment" minlength="10" maxlength="40" placeholder="Apartment (optional)" required>
+<input type="name" id="city" minlength="10" maxlength="40" placeholder="City" required>
+<div class="two-column-grid-pay">
+        <select name="city" id="town">
+          <option value="">Please Select a City</option>
+        <option value="london">England</option>
+        <option value="bsb">Wales</option>
+        <option value="bla">Scotland</option>
+        <option value="ble">Northern Ireland</option>
+        </select>
+<input type="name" id="postcode" minlength="10" maxlength="40" placeholder="Postcode" required>
+</div>
+<input type="tel" id="phone" name="phone" minlength="11" maxlength="11" placeholder="Phone Number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+<div class="shipping two-column-grid-pay">
+    <button><a href="#">Continue to Shipping</a></button>
+    <p><a href="./Cart.html">Return to Cart</a></p>
+</div>
+    </form>
+</div>
+    <h2 class="return text-center"><a href="../msha.html">Return to Homepage</a></h2>
+</body>
+</html>

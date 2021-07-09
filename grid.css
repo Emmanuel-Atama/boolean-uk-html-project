@@ -1,0 +1,36 @@
+   .two-column-grid-equal {
+     display: grid;
+     grid-template-columns: auto auto;
+     justify-content: flex-start;
+     gap: 0.25rem;
+     /* border: 0.0625rem solid orangered; */
+   }
+  .four-column-grid-equal {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 0.25rem;
+  }
+  .products-search {
+    display: grid;
+    place-items: center;
+  }
+  .cart-items {
+    display: grid;
+    place-items: center;
+  }
+  .nav-list ul {
+    display: grid;
+    gap: 1rem;
+    grid-auto-flow: column;
+  }
+  .responsive-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15.625rem, 1fr));
+    gap: 1rem;
+  }
+  .two-row-grid {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    gap: 0.25rem;
+    margin: 0.5rem;
+  }

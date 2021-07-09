@@ -1,0 +1,78 @@
+/* .nav-list a:hover {
+    text-decoration: underline solid 0.125rem orangered;
+  } */
+  .nav-list li:hover {
+    border: 0.125rem solid #f57c21;
+    border-top: 0;
+    border-bottom: 0;
+    text-align: center;
+    background-color: #f57c21;
+    color: white;
+  }
+  .homepage-title:hover {
+    font-size: 2rem;
+    color: White;
+    background-color: #f57c21;
+    width: auto;
+    height: auto;
+    border: 0.125rem solid #f57c21;
+    border-radius: 1rem;
+    padding: 0.125rem;
+    transition: 0.5s;
+  }
+  .click-here:hover {
+    font-size: 1.5rem;
+    color: White;
+    background-color: #f57c21;
+    width: auto;
+    height: auto;
+    border: 0.125rem solid #f57c21;
+    border-radius: 1rem;
+    padding: 0.125rem;
+    transition: 0.5s;
+  }
+  .product-name img:hover {
+    width: 17.5rem;
+    height: 17.5rem;
+    border: 0.125rem solid #f57c21;
+    border-radius: 1rem;
+    transition: 0.25s;
+  }
+  .products p a:hover {
+    font-family: calibri;
+    color: white;
+    background-color: #f57c21;
+    width: auto;
+    font-size: 2rem;
+    height: auto;
+    border: 0.125rem solid #f57c21;
+    border-radius: 1rem;
+    padding: 0.125rem;
+    transition: 0.5s;
+    }
+    .add-cart:hover {
+      padding: 0.5rem;
+      border-radius: 0.5rem;
+      border: 0.125rem solid #f57c21;
+      background-color: #f57c21;
+      color: white;
+      font-size: 1rem;
+      transition: 0.5s;
+    }
+    .contact-us img:hover {
+      margin-left: 0.5rem;
+      width: 2.5rem;
+      height: 2.5rem;
+      border-radius: 0.75rem;
+      }
+      .subscribe input:hover {
+        width: auto;
+        height: 2.5rem;
+        border-radius: 0.5rem;
+      border: 0.125rem solid #f57c21;
+      background-color: #f57c21;
+      color: white;
+      font-size: 1rem;
+      transition: 0.5s;
+      }
+  
