@@ -51,13 +51,16 @@
     .express-pay {
         text-align: center;
     }
-    input, select {
+    .express-pay button {
+        border: 0;
+    }
+    input, select, option {
     width: 100%;
     height: 2rem;
     border-radius: 0.25rem;
     border: 0.0625rem solid rgb(199, 198, 198);
     font-size: 1.25rem;
-    color: #f57c21;
+    color: #181716;
     margin-top: 1rem;
     margin-bottom: 1rem;
     display: grid;
@@ -80,20 +83,27 @@
      padding: 0.25rem;
      border-radius: 0.5rem;
  }
+ footer ul li {
+     margin-top: 1rem;
+     padding: 0.25rem;
+ }
+ footer {
+     margin-top: 2rem;
+ }
 </style>
 <body class="center-payment">
     <div class="logo">
-        <img src="./Assets/img/header/logo.jpg" alt="Logo"></div>
+        <a href="../msha.html"><img src="./Assets/img/header/logo.jpg" alt="Logo"></a></div>
         <section>
     <h1 class="text-center">Payment Page</h1>
     <ul class="six-column-grid-pay">
         <li></li>
         <li class="two-column-grid-pay">
-            <div><h4>Cart</h4></div>
+            <div><h4><a href="./Cart.html"> Cart</a></h4></div>
             <div class="right"><img src="https://pics.freeicons.io/uploads/icons/png/15129603211543238866-512.png" alt="Right"></div>
         </li>
         <li class="two-column-grid-pay">
-            <div><h4>Information</h4></div>
+            <div><h4><a href="./Payment.html"> Information</a></h4></div>
             <div class="right"><img src="https://pics.freeicons.io/uploads/icons/png/15129603211543238866-512.png" alt="Right"></div>
         </li>
         <li class="two-column-grid-pay">
@@ -106,13 +116,16 @@
         </li>
         <li></li>
     </ul>
+    <hr class="faded-white">
     <h4 class="check">Express checkout</h4>
     <div class="express-pay">
        <a href="https://www.paypal.com/uk/signin"> <img src="https://pics.freeicons.io/uploads/icons/png/6500358661581334480-512.png" alt="Paypal"></a>
-       <a href="https://www.apple.com/uk/apple-pay/"><img src="https://pics.freeicons.io/uploads/icons/png/11662275301558424388-512.png" alt="Apple Pay"></a>
-       <a href=""></a>
+       <a href="https://www.apple.com/uk/apple-pay/"><img src="https://pics.freeicons.io/uploads/icons/png/11662275301558424388-512.png" alt="Apple Pay">Pay</a>
+       <button><a href=""><img src="https://image.flaticon.com/icons/png/128/300/300221.png" alt="Google Pay"> Pay</a></button>
     </div>
+    <hr class="faded-white">
     <h4 class="text-center">OR</h4>
+    
 </section>
 <div>
     <ul class="three-column-grid-pay">
@@ -150,7 +163,13 @@
     <p><a href="./Cart.html">Return to Cart</a></p>
 </div>
     </form>
+    <footer>
+        <ul class="three-column-grid-cart">
+            <li><a href="#">Refund Policy</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+        </ul>
+    </footer>
 </div>
-    <h2 class="return text-center"><a href="../msha.html">Return to Homepage</a></h2>
 </body>
 </html>
