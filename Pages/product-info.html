@@ -6,42 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product Information</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="hover.css">
 </head>
-<style>
-.product-image {
-    width: 20rem;
-    height: 27rem;
-    border: 0.125rem dotted blue;
-}
-.product-image p {
-    margin-top: 0.5rem;
-   font-size: 1.2rem;
-}
-.product-image img {
-    width: 18rem;
-    height: 18rem;
-    margin: 0.75rem;
-}
-.product-page h1 {
-    padding-top: 2rem;
-}
-.add-cart {
-    padding: 0.5rem;
-    margin-top: 0.5rem;
-    border-radius: 0.5rem;
-}
-.product-info {
-    width: 20rem;
-    height: 15rem;
-    border: 0.125rem dotted red;
-    font-family: Calibri;
-}
-.product-info p, h3 {
-padding: 0.125rem;
-}
-</style>
 <body>
-    <div class="center">
+    <div class="center-product">
         <header>
             <nav class="logo-nav four-column-grid-equal">
                 <div class="msha-logo"><a href="../msha.html"><img src="./Assets/img/header/logo.jpg" alt="MSHA Logo"></a></div>
@@ -74,24 +42,67 @@ padding: 0.125rem;
         <main>
 <section class="product-page">
     <h1 class="text-center">Product Name</h1>
+  <div class="responsive-grid-cart">
     <div class="product-image text-center">
         <img src="./Assets/img/Blender/Breville-Blender.jpg" alt="Breville-Blender">
         <p><strong>Breville Blender</strong></p>
         <p><strong> £99</strong></p>
     <button class="add-cart"><a href="./Cart.html">Add To Cart</a></button>
     </div>
-    <section class="product-info">
+    <div class="product-info">
         <h3>Everything You Need to Know</h3>
         <p><strong>Function:</strong> Commercial grade blender designed for the home kitchen. With the most powerful motor, personal blender attachment and noise suppression technology, the Super Q improves versatility and delivers an advanced texture optimization for smoother & softer textures.</p>
         <p><strong>Specs:</strong> 1800 watts power, 120 volts voltage, 68oz capacity, 12 speed settings with 5 one touch programs.  Accessories includes: Recipe book, Tamper, and Spattula.</p>
-    </section>
-    <section class="product-reviews">
-        <h3>Product Reviews & Ratings</h3>
-        <div>
-<img src="./Assets/img/" alt="">
-            <p></p>
+    </div>
+    <div class="product-reviews">
+        <h3>Product Reviews</h3>
+        <div class="two-column-grid-equal reviews">
+<img src="https://image.flaticon.com/icons/png/512/895/895762.png" alt="5 star ratings">
+            <p><strong>24 reviews</strong></p>
+            <p class="text-center"><a class="write" href="#">Write a Review</a></p>
         </div>
-    </section>
+    </div>
+    <div class="image-gallery">
+        <div class="two-column-grid-equal">
+            <img src="./Assets/img/Blender/Blender blade.jpg" alt="blender">
+            <img src="./Assets/img/Blender/Blender-base.jpg" alt="Blender-base">
+        </div>
+        <div class="two-column-grid-equal">
+<img src="./Assets/img/Blender/blender-img.jpg" alt="Blender Img">
+<img src="./Assets/img/Blender/Breville-Blender.jpg" alt="Blender Pix"></div>
+    </div>
+  </div>
+  <div class="responsive-grid-cart">
+    <div class="product-image text-center">
+        <img src="./Assets/img/Microwave/Microwave.jpg" alt="Microwave">
+        <p><strong>Hotpoint Microwave</strong></p>
+        <p><strong> £199</strong></p>
+    <button class="add-cart"><a href="./Cart.html">Add To Cart</a></button>
+    </div>
+    <div class="product-info">
+        <h3>Everything You Need to Know</h3>
+        <p><strong>Function:</strong> Commercial grade blender designed for the home kitchen. With the most powerful motor, personal blender attachment and noise suppression technology, the Super Q improves versatility and delivers an advanced texture optimization for smoother & softer textures.</p>
+        <p><strong>Specs:</strong> 1800 watts power, 120 volts voltage, 68oz capacity, 12 speed settings with 5 one touch programs.  Accessories includes: Recipe book, Tamper, and Spattula.</p>
+    </div>
+    <div class="product-reviews">
+        <h3>Product Reviews</h3>
+        <div class="two-column-grid-equal reviews">
+<img src="https://image.flaticon.com/icons/png/512/895/895762.png" alt="5 star ratings">
+            <p><strong>140 reviews</strong></p>
+            <p class="text-center"><a href="#" class="write">Write a Review</a></p>
+        </div>
+    </div>
+    <div class="image-gallery">
+        <div class="two-column-grid-equal">
+            <img src="./Assets/img/Microwave/Front-view.jpg" alt="Microwave">
+            <img src="./Assets/img/Microwave/Opened.jpg" alt="Microwave">
+        </div>
+        <div class="two-column-grid-equal">
+            <img src="./Assets/img/Microwave/Microwave.jpg" alt="Microwave">
+<img src="./Assets/img/Microwave/Front-view.jpg" alt="Microwave">
+</div>
+    </div>
+  </div>
 </section>
         </main>
         </div>
